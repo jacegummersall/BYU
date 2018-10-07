@@ -15,5 +15,6 @@ Assumptions:
 5) I assumed that the idea was to involve the user so they had a cusomized experience, the program asks for the login, organization, branch, and type of license for that repository.
 
 In order to run the code: 
-1) 
-1) Open terminal or command prompt on a machien with python3 and then run python3 
+1) Copy the "BYUgithub.py" file to your local machine
+2) Open terminal or command prompt on a the machien, locate the file, and machine with python3 and then run python3 
+3) Follow the onscreen prompts in the program
