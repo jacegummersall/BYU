@@ -135,7 +135,7 @@ def fileCreation(s, organization, repo, info):
 		error = file.json()
 		error = error['message']
 		print('\n###################################################################\n# ERROR FROM SERVER:                                              #\n# ' + error + '\n###################################################################\n')
-		quit = input("\nTry again (T), Continue (C) or quit the app (Q)?:")
+		quit = input("\nTry again (T), Skip (S) or quit the app (Q)?:")
 		if quit[0].upper() == 'Q':
 			os.system("clear")
 			exit()
@@ -210,7 +210,7 @@ def createPullRequest(s, info, organization, repo):
 		error = pull.json()
 		error = error['message']
 		print('\n###################################################################\n# ERROR FROM SERVER:                                              #\n# ' + error + '\n###################################################################\n')
-		quit = input("\nTry again (T), Continue (C) or quit the app (Q)?:")
+		quit = input("\nTry again (T), Skip (S) or quit the app (Q)?:")
 		if quit[0].upper() == 'Q':
 			os.system("clear")
 			exit()
@@ -232,6 +232,3 @@ def complete(result):
 	exit()
 
 start()
-
-
-
